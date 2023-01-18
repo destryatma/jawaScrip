@@ -32,7 +32,7 @@ document html dengan menggunakan bahasa inggris
 - Menggunakan lebar 50% dari tampilan browser, padding dengan ukuran 10 piksel, margin auto agar berada di tengah, text-align atau rata teks di tengah, warna latar belakang (background-color) yang menggunakan warna yaitu chartreuse, dan menggunakan warna teks (color) navy.
 
 ## *Body*
-`header`: Judul halaman web berisi tag `h3` dengan berisi teks `Your List!`.
+`header`: Judul halaman web berisi tag `h3` dengan isi teks `Your List!`.
 
 `div` division atau section:
 1. `class="container"` berisi beberapa tag, yaitu:
