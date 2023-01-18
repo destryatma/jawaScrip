@@ -5,12 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your List!</title>
+    <style> 
+        h3 {
+            width: 50%;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            background-color: chartreuse;
+            color: navy;
+        }
+        div.container {
+            width: 50%;
+            height: max-content;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            border-radius: 0;
+            background-color: aqua;
+        }
+        button {
+            padding: 10px;
+            width: 25%;
+            text-align: left;
+            font-size: 16px;
+            transition: 0.3s;
+            border-radius: 0;
+            background-color: #6de49b;
+            color: #555;
+        }
+        input.todo {
+            padding: 10px;
+            width: 60%;
+            color: #555;
+            font-size: 16px;
+            transition: 0.3s;
+            background-color: #6de49b;
+        }
+        div.tableList {
+            width: 50%;
+            height: fit-content;
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            transition: 0.3s;
+            border-radius: 0;
+            background-color: #6de49b;
+            color: navy;
+        }
+        li {
+            text-align: start;
+        }
+        span.button {
+            padding: 10 px;
+            text-align: end;
+            background-color: grey;
+            cursor: pointer;
+        }
+        </style>
 </head>
 <body>
-    <h3>Your List!</h3>
+    <header><h3>Your List!</h3></header>
     <div class="container">
         <input class="todo" placeholder="Text here...">
-        <button onclick="daftar()" class="addBtn">add</button>  
+        <button onclick="daftar()">add</button>  
     </div>
     <div class="tableList">
         <span class="produkList">
@@ -19,56 +76,4 @@
     </div>
 <script src="codeMyList.js"></script>
 </body>
-<style> 
-h3 {
-    width: 50%;
-    padding: 10px;
-    margin: auto;
-    text-align: center;
-    padding: auto;
-    background-color: chartreuse;
-    color: navy;
-}
-div.container {
-    width: 50%;
-    height: max-content;
-    padding: 10px;
-    margin: auto;
-    text-align: center;
-    border-radius: 0;
-    background-color: aqua;
-}
-button.addBtn {
-    padding: 10px;
-    width: 25%;
-    text-align: left;
-    font-size: 16px;
-    transition: 0.3s;
-    border-radius: 0;
-    background-color: #6de49b;
-    color: #555;
-}
-input.todo {
-    padding: 10px;
-    width: 60%;
-    color: #555;
-    font-size: 16px;
-    transition: 0.3s;
-    background-color: #6de49b;
-}
-div.tableList {
-    width: 50%;
-    height: fit-content;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    transition: 0.3s;
-    border-radius: 0;
-    background-color: #6de49b;
-    color: navy;
-}
-li {
-    text-align: left;
-}
-</style>
 </html>
