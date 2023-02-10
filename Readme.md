@@ -1,5 +1,5 @@
 # Web ToDo List
-document html dengan menggunakan bahasa inggris
+document html dengan nama file `index.html`, menggunakan bahasa inggris
 
 ## *Head*
 **METADATA**

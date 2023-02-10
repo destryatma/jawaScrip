@@ -4,74 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your List!</title>
+    <title>Your List !</title>
     <style> 
-        h3 {
-            width: 50%;
-            padding: 10px;
-            margin: auto;
-            text-align: center;
-            background-color: chartreuse;
-            color: navy;
-        }
-        div.container {
-            width: 50%;
-            height: max-content;
-            padding: 10px;
-            margin: auto;
-            text-align: center;
-            border-radius: 0;
-            background-color: aqua;
-        }
-        button {
-            padding: 10px;
-            width: 25%;
-            text-align: left;
-            font-size: 16px;
-            transition: 0.3s;
-            border-radius: 0;
-            background-color: #6de49b;
-            color: #555;
-        }
-        input.todo {
-            padding: 10px;
-            width: 60%;
-            color: #555;
-            font-size: 16px;
-            transition: 0.3s;
-            background-color: #6de49b;
-        }
-        div.tableList {
-            width: 50%;
-            height: fit-content;
-            margin: auto;
-            padding: 10px;
-            text-align: center;
-            transition: 0.3s;
-            border-radius: 0;
-            background-color: #6de49b;
-            color: navy;
-        }
-        li {
-            text-align: start;
-        }
-        span.button {
-            padding: 10 px;
-            text-align: end;
-            background-color: grey;
-            cursor: pointer;
-        }
-        </style>
+    h1 {
+		text-align: center;
+		color: blueviolet;
+        padding: 4px 6px 4px 6px;
+        border: 1px solid #091540;
+        margin-left: 20%;
+        margin-right: 20%;
+	}
+    h3 {
+        text-align: center;
+		color: blueviolet;
+        padding: 4px 6px 4px 6px;
+        border: 1px solid #091540;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    span.daftarList {
+        padding: 12px 4px 12px 4px;
+        background-color: aquamarine;
+        position: relative;
+        display: block;
+        margin-top: 1px;
+    }
+    span.delList {
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 12px;
+        background-color: aqua;
+        color: crimson;
+    }
+    span.delList:hover{
+        background-color: blue;
+        color: aliceblue;
+    }
+    div.inputSection {
+        margin: 0 auto;
+        color: darkcyan;
+        text-align: center;
+    }
+    div.listSection {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 20%;
+        text-align: left;
+        margin-right: 20%;
+    }
+    </style>
 </head>
 <body>
-    <header><h3>Your List!</h3></header>
-    <div class="container">
-        <input class="todo" placeholder="Text here...">
-        <button onclick="daftar()">add</button>  
+    <header><h1>Your List!</h1></header>
+    <div class="inputSection">
+        <input class="todo" type="text" placeholder="Text here...">
+        <button onclick="inputBtn()">add</button>  
     </div>
-    <div class="tableList">
-        <span class="produkList">
-        <a>List kamu:</a>
+    <h3>List kamu:</h3>
+    <div class="listSection">
+        <span id="this">
+        <a></a>
         </span>
     </div>
 <script src="codeMyList.js"></script>
